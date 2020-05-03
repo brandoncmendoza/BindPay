@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" class="<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">">
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pagina Bind Pay</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <nav class="nav-box">
+    <a href="#">
+      <!--<img src="https://www.ip6net.net/wp-content/uploads/2016/04/dropbox-logos_dfb_big.png" alt="" /></a> -->
+          
+      <ul class="nav-list">
+         
+      <li class="nav-item"><a href="#">Home</a></li>
+      <li class="nav-item"><a href="#">Move and Pay</a></li>
+      <li class="nav-item"><a href="#">Benefits</a></li>
+      
+      <li class="nav-item"><a class="dropdown" href="#">I am a company</a></li>
+      <li class="nav-item"><a class="dropdown" href="https://codepen.io/brandommgames/pen/QWbmNNb"> Social impact report </a> </li> 
+       
+      <li class="nav-item btn"><a href="https://codepen.io/brandommgames/pen/wvajQJG">Login</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="hero">
+  <div class="hero-background">
+    <div class="hero-text">
+      <h1>Bind Pay</h1>
+      <!--<h3>Apuntate, y recibe grandes beneficios</h3>-->
+        <a href="https://codepen.io/brandommgames/pen/jOPZpyz"><button>Sign in</button>
+      <!--<a href="https://codepen.io/brandommgames/pen/jOPZpyz">Login</a></p>-->
+      
+            
+    </div>
+  </div>
+</section>
+
+<section class="prices container">
+  <header class="header-prices">
+    <h1>Nuestro Enfoque</h1>
+    <ul>
+      <!--<li class="btn"><strong> Billed annually</strong></li>
+      <li>Billed monthly</li>-->
+    </ul>
+  </header>
+  <div class="prices-tables">
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <div class="table">
+          <header>
+            <h3>Usuarios</h3>
+            <h5>free</h5>
+          </header>
+          <div class="price-content">
+           <!-- <h1>$0</h1>
+            <p>always free</p>
+           <!-- <p>All the features you need to keep your personal files safe, accessible, and easy to share.</p> -->
+            <button>Mas informacion</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="table">
+          <header>
+            <h3>Beneficios</h3>
+            <h5>for individuals</h5>
+          </header>
+          <div class="price-content">
+           <!-- <h1>$8.25</h1> -->
+         <!--   <p>/ user / month</p>
+            <p>More storage, sharing features, and controls to take your Basic plan to the next level.</p> -->
+            <button>mas informacion</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="table">
+          <header class="special">
+            <h3>Empresas</h3>
+            <h5>for teams</h5>
+          </header>
+          <div class="price-content">
+              <!--<h1>$12.50</h1> -->
+            <!--<p>/ user / month, starting at 5 users</p>
+            <p>Powerful collaboration, advanced security and control, and all the space you need to work without limits.</p>-->
+            <button class="special">mas informacion</button>
+           <!--  <p class="text-center">or <a href="#">purchase now</a></p>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <div class="prices-adv">
+          <!-- <p>2 GB of space</p>
+          <p>30 days of file recovery</p>
+          <p>MS Office 365 integration</p>
+          <p>Unlimited 3rd party integrations</p>
+          <strike>
+           <!-- <p>Remote wipe</p>
+            <p>Password-protected links</p>
+            <p>Email and phone support</p>
+            <p>Powerful admin tools</p>
+            <p>Advanced collaboration tools</p>
+            <p>Simple user management</p> -->
+          </strike>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="prices-adv">
+         <!--  <p>1 TB (1,000 GB) of space</p>
+          <p>30 days of file recovery</p>
+          <p>MS Office 365 integration</p>
+          <p>Unlimited 3rd party integrations</p>
+          <p>Remote wipe</p>
+          <p>Password-protected links</p>
+          <p>Email and phone support</p>
+          <strike>
+            <p>Powerful admin tools</p>
+            <p>Advanced collaboration tools</p>
+            <p>Simple user management</p>  -->
+          </strike>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="">
+            <!--        <p>As much space as needede</p>
+         <p>As much space as needede</p>
+           <p>As much space as needede</p>
+          <p>Unlimited file recovery</p>
+          <p>MS Office 365 integration</p>
+          <p>Unlimited 3rd party integrations</p>
+          <p>Remote wipe</p>
+          <p>Password-protected links</p>
+          <p>Email and phone support</p>
+          <p>Powerful admin tools</p>
+          <p>Advanced collaboration tools</p>
+          <p>Simple user management</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- partial -->
+  
+</body>
+</html>
