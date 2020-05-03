@@ -1,0 +1,130 @@
+@charset "UTF-8";
+.nav-box {
+  background-color: #fff;
+  border: solid 1px #d0d4d9;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+.nav-box img {
+  width: 300px;
+}
+.nav-box ul {
+  list-style-type: none;
+  float: right;
+}
+.nav-box ul .nav-item {
+  display: inline;
+  margin: 15px;
+  line-height: 90px;
+}
+.nav-box ul .nav-item a {
+  color: #0071e0;
+}
+.nav-box .btn {
+  border: solid 1px #0071e0;
+  padding: 10px;
+}
+.nav-box .btn:hover {
+  background-color: rgba(0, 113, 224, 0.1);
+}
+.nav-box .dropdown:after {
+  content: " ▼";
+}
+
+.hero {
+  width: 100%;
+  height: 700px;
+  background-color: #f7f7f7;
+}
+.hero .hero-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(https://image.freepik.com/vector-gratis/concepto-reunion-negocios-lluvia-ideas_126283-811.jpg) no-repeat;
+  background-position: right top;
+}
+.hero .hero-background .hero-text {
+  position: absolute;
+  top: 100px;
+  right: 900px;
+  width: 30%;
+}
+.hero .hero-background .hero-text h1 {
+  font-size: 60px;
+}
+.hero .hero-background .hero-text h3 {
+  margin: 20px 0;
+}
+.hero .hero-background .hero-text button {
+  width: 50%;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #0071e0;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+}
+.hero .hero-background .hero-text p a {
+  text-decoration: underline;
+}
+
+.prices .header-prices {
+  margin: 20px 0;
+}
+.prices .header-prices h1 {
+  display: inline;
+}
+.prices .header-prices ul {
+  list-style-type: none;
+  float: right;
+}
+.prices .header-prices ul li {
+  margin: 0 10px;
+  line-height: 45px;
+  display: inline;
+}
+.prices .header-prices ul .btn {
+  border: solid 1px black;
+}
+.prices .table {
+  border: solid 1px #d0d4d9;
+  width: 316px;
+  height: 415px;
+}
+.prices .table .price-content {
+  margin: 45px 0px;
+}
+.prices .table .price-content h1, .prices .table .price-content p {
+  margin: 20px 20px;
+}
+.prices .table button {
+  border: solid 1px #0071e0;
+  border-radius: 5px;
+  width: 270px;
+  background-color: #fff;
+  padding: 10px;
+  color: #0071e0;
+  margin: 10px 20px;
+}
+.prices .table header {
+  background-color: #f7f7f7;
+  display: inline-block;
+  width: 100%;
+  height: 75px;
+}
+.prices .table header h3, .prices .table header h5 {
+  margin: 15px 20px 10px 20px;
+}
+.prices .table header h5 {
+  margin: 0 20px;
+}
+.prices .table .special {
+  background-color: #0071e0;
+  color: #fff;
+}
+.prices .prices-adv {
+  border-right: 1px solid #d0d4d9;
+  margin-right: 5px;
+}
